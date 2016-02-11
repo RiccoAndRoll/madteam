@@ -13,6 +13,11 @@ public class Coordinates {
         this.y = y;
     }
 
+    public Coordinates(String[] strings){
+        this.x = Integer.parseInt(strings[0]);
+        this.y = Integer.parseInt(strings[1]);
+    }
+
     public int getX() {
         return x;
     }
